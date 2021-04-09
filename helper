@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo ip netns exec `basename ${BASH_SOURCE[0]}` python3 "$@"
